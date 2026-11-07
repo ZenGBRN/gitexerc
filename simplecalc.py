@@ -20,8 +20,3 @@ elif choice == '4':
 else:
     print("Invalid input")
 
-print("Do you want to perform another calculation? (yes/no)")
-next_calculation = input()
-if next_calculation.lower() == 'yes':
-    # Restart the calculator
-    exec(open(__file__).read())
